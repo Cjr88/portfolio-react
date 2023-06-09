@@ -4,7 +4,7 @@ const Sidebar = () => (
     <aside>
         <img src="https://github.com/Cjr88.png" alt="" />
 
-        <Title>Carlos Junior</Title>
+        <Title fontSize={20}>Carlos Junior</Title>
 
     </aside>
 )
