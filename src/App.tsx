@@ -4,9 +4,9 @@ import { ThemeProvider } from "styled-components";
 import EstiloGlobal, { Container } from "./styles";
 import Sidebar from "./containers/Sidebar";
 import Sobre from "./containers/Sobre";
-import Projetos from "./containers/Projetos";
 import temaLight from "./themes/light";
 import temaDark from "./themes/dark";
+import Projetos from "./containers/Projetos";
 
 function App() {
   const [temaDarkOn, setTemaDarkOn] = useState(false)
@@ -22,7 +22,7 @@ function App() {
         <Sidebar trocaTema={trocaTema} />
         <main>
           <Sobre />
-          <Projetos />
+            <Projetos />
         </main>
       </Container>
     </ThemeProvider>
